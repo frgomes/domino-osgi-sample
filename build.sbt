@@ -289,8 +289,8 @@ lazy val publishSettings =
             </license>
           </licenses>
           <scm>
-            <connection>scm:git:github.com/frgomes/domino-osgi-sample.hg</connection>
-            <developerConnection>scm:git:frgomes@github.com:frgomes/domino-osgi-sample.hg</developerConnection>
+            <connection>scm:git:github.com/frgomes/domino-osgi-sample.git</connection>
+            <developerConnection>scm:git:frgomes@github.com:frgomes/domino-osgi-sample.git</developerConnection>
             <url>http://github.com/frgomes/domino-osgi-sample</url>
           </scm>
           <developers>
