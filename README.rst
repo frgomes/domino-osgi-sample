@@ -3,7 +3,7 @@
 .. _Code : http://github.com/frgomes/domino-osgi-sample
 .. _Bugs : http://github.com/frgomes/domino-osgi-sample/issues
 .. _Forum : http://github.com/frgomes/domino-osgi-sample/wiki
-.. _License : http://opensource.org/licenses/BSD
+.. _License : http://opensource.org/licenses/BSD-3-Clause
 .. _Contact : http://github.com/~frgomes
 .. _`OSGi`: http://www.osgi.org/
 .. _`Karaf`: http://karaf.apache.org/
