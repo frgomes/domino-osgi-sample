@@ -34,7 +34,7 @@ For the impatient
 
 
 
-**NOTE:** `bnd`_ complains on ``moduleB``. Karaf fails to activate ``moduleB``.
+**NOTE:** `bnd`_ complains on ``moduleB``. `Karaf`_ fails to activate ``moduleB``.
 
 
 Known issues
