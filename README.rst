@@ -12,7 +12,7 @@
 ----
 
 This project contains a sample application for `Domino`_, a scala library which
-aims to make `OSGi`_ more idiomatic for Scala developers
+aims to make `OSGi`_ more idiomatic for Scala developers.
 
 
 Requirements
@@ -29,7 +29,7 @@ For the impatient
 
     $ git clone http://github.com/frgomes/domino-osgi-sample
     $ cd domino-osgi-sample
-    $ sbt clean package osgiBundle
+    $ ./sbt clean package osgiBundle
 
 
    
