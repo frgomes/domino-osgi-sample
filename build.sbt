@@ -224,8 +224,8 @@ lazy val moduleA =
         OsgiKeys.bundleActivator := Option("moduleA.internal.MyActivator"),
         OsgiKeys.additionalHeaders :=
           Map(
-            "Service-Component" -> "*",
-            "Conditional-Package" -> "scala.*" )
+            "Service-Component" -> "*" )
+            //XXX "Conditional-Package" -> "scala.*" )
       ):_*)
 
 lazy val moduleB =
@@ -243,14 +243,12 @@ lazy val moduleB =
         OsgiKeys.importPackage :=
           Seq(
             "sun.misc;resolution:=optional",
-            "domino.*",
             "!aQute.bnd.annotation.*",
             "*" ),
         OsgiKeys.bundleActivator := Option("moduleB.internal.MyDominoActivator"),
         OsgiKeys.additionalHeaders :=
           Map(
-            "Service-Component" -> "*",
-            "Conditional-Package" -> "scala.*" )
+            "Service-Component" -> "*" )
       ):_*)
 
 
