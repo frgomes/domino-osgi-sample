@@ -20,7 +20,7 @@ Requirements
 ============
 
 * Java 8
-* Scala 2.11.7
+* Scala 2.11
 
 
 For the impatient
@@ -43,7 +43,16 @@ Known issues
 1. https://github.com/frgomes/domino-osgi-sample/issues/1
 
 
-Support
+CHANGES
 =======
 
-Please find links on the top of this page.
+0.1-SNAPSHOT
+------------
+
+* Initial version.
+
+
+AUTHORS
+=======
+
+Richard Gomes <rgomes.info@gmail.com>
