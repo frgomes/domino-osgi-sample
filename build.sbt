@@ -243,6 +243,7 @@ lazy val moduleB =
         OsgiKeys.importPackage :=
           Seq(
             "sun.misc;resolution:=optional",
+            "domino.*",
             "!aQute.bnd.annotation.*",
             "*" ),
         OsgiKeys.bundleActivator := Option("moduleB.internal.MyDominoActivator"),
