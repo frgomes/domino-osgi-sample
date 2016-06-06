@@ -36,7 +36,7 @@ For the impatient
     $ ./sbt clean package osgiBundle
 
 
-**NOTE:** `bnd`_ complains on ``moduleB``. This is a known issue.
+**NOTE:** `sbt-osig`_ crashes after upgrade to bndlib 3.2.0
 
 * Running Karaf, installing Scala, Domino and the bundles we've just built:
 

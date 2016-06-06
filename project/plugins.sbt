@@ -3,4 +3,4 @@ lazy val plugins =
     .in(file("."))
     .dependsOn(sbtOsgi)
 
-def sbtOsgi = uri("git://github.com/sbt/sbt-osgi.git")
+def sbtOsgi = uri("git://github.com/frgomes/sbt-osgi.git")
